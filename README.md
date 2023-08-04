@@ -3,10 +3,9 @@
 ## Table of contents
 
 - [Introduction](#introduction)
-    - [Project Description](#project-description)
-    - [Objectives](#objectives)
+- [Objectives](#objectives)
 - [Data Science Methodology](#data-science-methodology)
-    - [Problem Formulation](#problem-formulation)
+    - [Project Description](#project-description)
     - [Data Science Methods](#data-science-methods)
 - [Conclusions](#conclusions)
 - [Status and Details](#status-and-details)
@@ -17,16 +16,19 @@ Did you know there are numerous varieties of pistachios? Considering that each s
 Some pistachios, for example, are better suited for baking, and others, which are more crunchy, are generally consumed as snacks.
 Pistachio types detection, numbers are extracted by image processing methods.
 
+### Objectives
+- Gain a deeper understanding of estimators used in classification and hyper-parameter tuning. 
+- Provide a visual representation of the data.
+- The algorithm was designed to identify what pistachio type a pistachio belonged to using a feature vector based containing geometrical information. 
+
+## Data Science Methodology
+
 ### Project Description
 Correlation matrices, box plots, and histograms have been used to clearly visualise trends in the dataset. 
 Classification models were trained on a large preprocessed dataset, yielding accurate results.
 The model hyper-parameters were tuned using GridSearchCV which exhaustively considers all parameter combinations which give the best f1-score.
 Receiver Operating Characteristic (ROC) curve was plotted along with a precision-recall curve and precision-recall tradeoff curves.
 
-### Objectives
-- Gain a deeper understanding of estimators used in classification and hyper-parameter tuning. 
-- Provide a visual representation of the data.
-- The algorithm was designed to identify what pistachio type a pistachio belonged to using a feature vector based containing geometrical information. 
 
 ### Data Science Methods
 - Data Preprocessing
