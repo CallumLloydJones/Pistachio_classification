@@ -48,5 +48,5 @@ The area under the ROC curve was found to be 0.93 which is indicative of a good 
 - **Notes**: This project was to gain a better understanding of different supervised learning techniques and hyperparameter tuning.
 
 ## Technology
-- **Language**: Python 3.6.9
+- **Language**: Python 3.11.4
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scipy, sklearn
